@@ -25,3 +25,29 @@
 .screen-header__icons {
     position: relative;
 }
+
+@keyframes rotategear {
+    from{
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+        
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotategear 1s linear infinite ;
+}
+
+
+
+    /* 0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px); /*rotateY(360deg);
+    }
+    100%{
+        transform: none;
+    } */
